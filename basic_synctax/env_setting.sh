@@ -32,6 +32,6 @@ git remote set-url origin 레포주소
 # git 설정정보 조회
 git config --list
 
-1. 레포 kimseonguk197 깃 주소에서 아무거나 여러분 repo로 갖고가기
-    1) commit id를 유지한채 가져가기(팀작업후 가져가기)
-    2) commit id 를 전부 없애고 내 레포 인것처럼 가져가기
+# 1. 레포 kimseonguk197 깃 주소에서 아무거나 여러분 repo로 갖고가기
+#     1) commit id를 유지한채 가져가기(팀작업후 가져가기)
+#     2) commit id 를 전부 없애고 내 레포 인것처럼 가져가기
