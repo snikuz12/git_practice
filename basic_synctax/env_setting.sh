@@ -1,3 +1,17 @@
+# git add . 은 모든 변경 사항 staging area 이동
+git add .
+
+# git commitd은 staging area의 변경사항을 확정짓고 commitID 생성
+git commit -m "message"
+
+# 원격 repo에 upload
+git push origin 브랜치명
+
+# github 인증방법 2가지
+# 1. token 인증방식 : github에서 직접 보안키(token) 발급
+
+# 2. 제3자 인증(oauth)방식
+
 # git 프로젝트 생성방법 2가지
 # 방법1. 원격 repo 생성  후 clone
 
@@ -17,3 +31,7 @@ git remote set-url origin 레포주소
 
 # git 설정정보 조회
 git config --list
+
+1. 레포 kimseonguk197 깃 주소에서 아무거나 여러분 repo로 갖고가기
+    1) commit id를 유지한채 가져가기(팀작업후 가져가기)
+    2) commit id 를 전부 없애고 내 레포 인것처럼 가져가기
