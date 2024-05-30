@@ -83,3 +83,24 @@ git stash show -p 인덱스
 
 # 저장한 stash 목록 전체 삭제
 git stash clear
+
+# 버전명시 tagging 
+git tag v1.0
+git tag v1.0 -m "1. 주요사항1 2. 주요사항2"
+
+# tag release 배포
+# commit 푸시와 상관없이 태그(release) 별도 push
+git push origin v1.0
+
+# 태그 목록 조회
+git tag
+
+# 브랜치 생성
+# 현재 checkout 하고 있는 브랜치를 기준으로 브랜치 생성
+git branch 브랜치명
+
+# 해당 브랜치로 전환
+git checkout 브랜치명
+
+# 브랜치목록조회
+git branch
